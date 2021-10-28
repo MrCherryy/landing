@@ -1,0 +1,37 @@
+.container {
+  width: 900px;
+  margin: auto;
+}
+.banner h1 {
+  color: white;
+}
+.banner p {
+  color: white;
+  opacity: .7;
+  font-size: 20px;
+}
+.text-center {
+  text-align: center;
+}
+.btn-primary {
+  display: inline-block;
+  background-color: #ff0000;
+  padding: 16px 36px;
+  border-radius: 50px;
+  color: white;
+}
+.cards {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.card {
+  width: 200px;
+  border-radius: 3px;
+  box-shadow: 0 0 5px rgb(230 230 230);
+  text-align: center;
+  padding: 20px; border: 1px solid rgb(230,230,230);
+}
+.card img {
+  height: 100px;
+}
